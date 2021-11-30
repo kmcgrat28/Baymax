@@ -76,4 +76,13 @@ Materials and resource requirements
 ## Coding Progress:
 
 ## CAD Progress:
-https://github.com/kmcgrat28/Baymax/blob/main/Capture%20arm%204in.PNG
+#### Arm configuration:
+##### 4in arm
+![Arm 4in](https://github.com/kmcgrat28/Baymax/blob/main/Capture%20arm%204in.PNG)
+##### 5in arm
+![Arm 5in](https://github.com/kmcgrat28/Baymax/blob/main/arm%20photo.PNG)
+##### 6in arm
+![Arm 6in](https://github.com/kmcgrat28/Baymax/blob/main/Capture%20arm%206in.PNG)\
+##### Basic servo holder: I did make this a bit bulkier than usual to try and protect the servo from stuffing.
+![servo holder](https://github.com/kmcgrat28/Baymax/blob/main/servo%20holder%20photo.PNG)\
+
