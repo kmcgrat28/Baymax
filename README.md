@@ -76,3 +76,4 @@ Materials and resource requirements
 ## Coding Progress:
 
 ## CAD Progress:
+https://github.com/kmcgrat28/Baymax/blob/main/Capture%20arm%204in.PNG
