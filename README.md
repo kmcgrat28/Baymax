@@ -85,4 +85,9 @@ Materials and resource requirements
 ![Arm 6in](https://github.com/kmcgrat28/Baymax/blob/main/Capture%20arm%206in.PNG)\
 ##### Basic servo holder: I did make this a bit bulkier than usual to try and protect the servo from stuffing.
 ![servo holder](https://github.com/kmcgrat28/Baymax/blob/main/servo%20holder%20photo.PNG)\
+##### ball to attach the socket and leg to
+![Socket](https://github.com/kmcgrat28/Baymax/blob/main/ball%20to%20socket.PNG)
+##### Socketand leg to attach to the ball
+![Leg](https://github.com/kmcgrat28/Baymax/blob/main/Capture%20leg%20bottom.PNG)
+
 
