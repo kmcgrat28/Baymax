@@ -99,6 +99,7 @@ Materials and resource requirements
 ###### For this model I made the plastic thicker again so it would have its strength back but I lowered the top and the ellipse in the sketch so it would need less give to be attached but would still have some without adding too much pressure and breaking it.
 #### The skeleton printed and assembled
 ![IMG_0009](https://user-images.githubusercontent.com/56269212/167702094-0897fcb4-2de7-46b7-a599-a2f371511a85.jpg)
+#### The assembly coming together!!
+##### this is most of the main parts getting put together, the main center, the base, the arms, the servo-holders, the servos, and the balls for the legs.
 ![IMG_0010](https://user-images.githubusercontent.com/56269212/167702066-11decdeb-42a0-4c56-bfa1-1d0b567312c1.jpg)
-![IMG_0012](https://user-images.githubusercontent.com/56269212/167702090-98002c33-1250-43fd-9af9-e67309c4a88f.jpg)
 
