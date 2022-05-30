@@ -53,7 +53,8 @@ Baymax stuffed animal - $20-30
 Wires - already have
  Open BCI heart rate monitor - already have
 Temperature sensor - already have 
-Extra/unnamed supplies (estimate) - $30 
+Extra/unnamed supplies (estimate) - $30
+* analog-to-digital converter
 MAX TOTAL PRICE - $60
 
 ## Impact
@@ -74,6 +75,11 @@ Materials and resource requirements
 
 
 ## Coding Progress:
+### Heartrate Sensor & LCD Screen
+The heartrate sensor provides the BPM, which is then printed on the LCD screen (alongside a fun Baymax quote!). If no heartrate is detected, the text on the screen will change to reflect that. 
+
+### Servos
+The servos are responsible for moving Baymax's arms. They are continuous rotation servos and move to 90 degrees when the code is initialized; when it stops running, the servos go back down to their original position. 
 
 ## CAD Progress:
 #### Arm configuration:
