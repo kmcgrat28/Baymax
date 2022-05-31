@@ -89,7 +89,8 @@ if bpm > 0:
 		disp.display()
 		time.sleep(2)
 		draw.rectangle((0,0,width,height), outline=0, fill=0)
-
+'''
+'''
 	else:
 		draw.text((x, top),	'No heartbeat found', font=font, fill=255)
 		disp.image(image)
