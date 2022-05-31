@@ -53,7 +53,8 @@ Baymax stuffed animal - $20-30
 Wires - already have
  Open BCI heart rate monitor - already have
 Temperature sensor - already have 
-Extra/unnamed supplies (estimate) - $30 
+Extra/unnamed supplies (estimate) - $30
+* analog-to-digital converter
 MAX TOTAL PRICE - $60
 
 ## Impact
@@ -74,6 +75,11 @@ Materials and resource requirements
 
 
 ## Coding Progress:
+### Heartrate Sensor & LCD Screen
+The heartrate sensor provides the BPM, which is then printed on the LCD screen (alongside a fun Baymax quote!). If no heartrate is detected, the text on the screen will change to reflect that. 
+
+### Servos
+The servos are responsible for moving Baymax's arms. They are continuous rotation servos and move to 90 degrees when the code is initialized; when it stops running, the servos go back down to their original position. 
 
 ## CAD Progress:
 #### Arm configuration:
@@ -89,5 +95,17 @@ Materials and resource requirements
 ![Socket](https://github.com/kmcgrat28/Baymax/blob/main/ball%20to%20socket.PNG)
 ##### Socketand leg to attach to the ball
 ![Leg](https://github.com/kmcgrat28/Baymax/blob/main/Capture%20leg%20bottom.PNG)
-
+##### First print if the leg
+###### The first print of the leg worked, it could snap on and move around but it was very tight and had too much pressure on it. ultimately, taking it on and causing it to break due to the thickness of the plastic and not having enough give.
+![arm printed out](https://github.com/kmcgrat28/Baymax/blob/main/IMG_0006.jpg)
+##### Second print if the leg
+###### I thought making the plastic thinner would give us a less tight fit but still have the stability and height we needed. In reality, it just caused the whole thing to be weaker, and this model broke too.
+![IMG_0008](https://user-images.githubusercontent.com/56269212/167702076-ecc34eeb-b6b0-477a-92f6-b0b509e83e39.jpg)
+##### Final print of the leg (hopefully)
+###### For this model I made the plastic thicker again so it would have its strength back but I lowered the top and the ellipse in the sketch so it would need less give to be attached but would still have some without adding too much pressure and breaking it.
+#### The skeleton printed and assembled
+![IMG_0009](https://user-images.githubusercontent.com/56269212/167702094-0897fcb4-2de7-46b7-a599-a2f371511a85.jpg)
+#### The assembly coming together!!
+##### this is most of the main parts getting put together, the main center, the base, the arms, the servo-holders, the servos, and the balls for the legs.
+![IMG_0010](https://user-images.githubusercontent.com/56269212/167702066-11decdeb-42a0-4c56-bfa1-1d0b567312c1.jpg)
 
