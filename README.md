@@ -77,9 +77,59 @@ Materials and resource requirements
 ## Coding Progress:
 ### Heartrate Sensor & LCD Screen
 The heartrate sensor provides the BPM, which is then printed on the LCD screen (alongside a fun Baymax quote!). If no heartrate is detected, the text on the screen will change to reflect that. 
+'''
+if bpm > 0: 
+		draw.text((x, top),	'Hello. I am Baymax,', font=font, fill=255)
+		draw.text((x, top+10),	'your personal', font=font, fill=255)
+		draw.text((x, top+20),	'healthcare companion.', font=font, fill=255)
+		draw.text((x, top+30),	'Your heartrate is', font=font, fill=255)
+		draw.text((x, top+40),	str(int(bpm)), font=font, fill=255)
+		disp.image(image)
+		disp.display()
+		time.sleep(2)
+		draw.rectangle((0,0,width,height), outline=0, fill=0)
+
+	else:
+		draw.text((x, top),	'No heartbeat found', font=font, fill=255)
+		disp.image(image)
+		disp.display()
+		time.sleep(2)
+		draw.rectangle((0,0,width,height), outline=0, fill=0)
+		time.sleep(2)
+'''
+
+At first, I had some issues with the heartrate sensor actually reading the values. It turns out that this problem was likely due to a hardware issue: the sensors are very sensitive and even pushing on both sides of the sensor can overload and damage it. Once we got the new one, it worked like a charm. I first printed the values in terminal by writing: 
+'''
+bpm = p.BPM
+print(bpm)
+'''
+The BPM printed in terminal without a problem. However, some issues did arise when I tried to put it on the LCD screen with this code:
+'''
+draw.text((x, top+40),	bpm, font=font, fill=255)
+'''
+
+However, though the screen would print "No heartbeat found" if that was the case, I'd get an error whenever it did pick up on a reading. Mr. Miller suggested that the problem might be with the fact that there are an infinite number of decimals in each reading and the LCD screen didn't know how many to print. So, we changed it to
+'''
+draw.text((x, top+40),	int(bpm), font=font, fill=255)
+'''
+
+This didn't work, so we switched int with str, and the values started to print on the screen. However, there were still a lot of decimal values and for aesthetic purposes, we preferred an integer. So, we added the following line and it worked perfectly! 
+'''
+draw.text((x, top+40),	str(int(bpm)), font=font, fill=255)
+'''
 
 ### Servos
 The servos are responsible for moving Baymax's arms. They are continuous rotation servos and move to 90 degrees when the code is initialized; when it stops running, the servos go back down to their original position. 
+
+'''
+while True:
+	
+	servoleft.mid()
+	servoright.mid()
+	time.sleep(3)
+'''
+
+The servos were extremely easy to set up in the test code, but I hit a small hurdle when attempting to integrate this aspect into the main document. First, I put the servo instructions inside the if statement; when that didn't work, I tried putting it before the while True loop, which also failed. I found that the only way that they'd react properly was if I put it before the if statement but still inside the while True loop. 
 
 ## CAD Progress:
 #### Arm configuration:
