@@ -89,9 +89,7 @@ if bpm > 0:
 		disp.display()
 		time.sleep(2)
 		draw.rectangle((0,0,width,height), outline=0, fill=0)
-'''
-'''
-	else:
+else:
 		draw.text((x, top),	'No heartbeat found', font=font, fill=255)
 		disp.image(image)
 		disp.display()
@@ -105,6 +103,7 @@ At first, I had some issues with the heartrate sensor actually reading the value
 bpm = p.BPM
 print(bpm)
 '''
+
 The BPM printed in terminal without a problem. However, some issues did arise when I tried to put it on the LCD screen with this code:
 '''
 draw.text((x, top+40),	bpm, font=font, fill=255)
