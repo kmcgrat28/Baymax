@@ -77,6 +77,7 @@ Materials and resource requirements
 ## Coding Progress:
 ### Heartrate Sensor & LCD Screen
 The heartrate sensor provides the BPM, which is then printed on the LCD screen (alongside a fun Baymax quote!). If no heartrate is detected, the text on the screen will change to reflect that. 
+
 '''
 if bpm > 0: 
 		draw.text((x, top),	'Hello. I am Baymax,', font=font, fill=255)
